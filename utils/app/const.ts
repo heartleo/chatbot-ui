@@ -19,3 +19,6 @@ export const OPENAI_ORGANIZATION =
 
 export const AZURE_DEPLOYMENT_ID =
   process.env.AZURE_DEPLOYMENT_ID || '';
+
+export const OPENAI_API_MAX_TOKEN =
+    parseInt(process.env.OPENAI_API_MAX_TOKEN || "2000");
